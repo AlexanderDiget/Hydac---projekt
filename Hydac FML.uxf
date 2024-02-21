@@ -4,7 +4,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>90</x>
+      <x>60</x>
       <y>110</y>
       <w>150</w>
       <h>470</h>
@@ -15,6 +15,16 @@ bg=green
 
 Hydac HQ i Tyskland
 
+Pentia
+
+Virksomheder HYDAC
+arbejder sammen med
+i forhold til 
+bæredygtighed:
+
+EDF Energy 
+Subsea 7
+Tata Steel
 
 </panel_attributes>
     <additional_attributes/>
@@ -22,7 +32,7 @@ Hydac HQ i Tyskland
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>240</x>
+      <x>210</x>
       <y>110</y>
       <w>280</w>
       <h>240</h>
@@ -49,7 +59,7 @@ til kunders unikke behov
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>240</x>
+      <x>210</x>
       <y>350</y>
       <w>280</w>
       <h>230</h>
@@ -74,7 +84,7 @@ evt. begrænsning på opgivelse af kunder
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>90</x>
+      <x>60</x>
       <y>580</y>
       <w>530</w>
       <h>120</h>
@@ -93,7 +103,7 @@ Variable omkostninger - Varierende priser på materialer, priser på energiudled
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>520</x>
+      <x>490</x>
       <y>110</y>
       <w>200</w>
       <h>470</h>
@@ -112,6 +122,15 @@ komponenter til en
 lang række forskellige 
 brancher
 
+7 Foretningsmodeller:
+HYDAC Innovation
+HYDAC Learn
+HYDAC Component
+HYDAC Configure
+HYDAC One-Off
+HYDAC Serie
+HYDAC Service
+
 
 
 
@@ -121,7 +140,7 @@ brancher
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>720</x>
+      <x>690</x>
       <y>110</y>
       <w>200</w>
       <h>230</h>
@@ -150,13 +169,20 @@ værdiskabelse som resultat
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>720</x>
+      <x>690</x>
       <y>340</y>
       <w>200</w>
       <h>240</h>
     </coordinates>
     <panel_attributes>halign=left
 Kanaler
+
+Egne distributionskanaler
+
+Virksomhedsbesøg
+
+HYDAC DK's hjemmeside
+
 bg=red
 
 
@@ -166,7 +192,7 @@ bg=red
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>920</x>
+      <x>890</x>
       <y>110</y>
       <w>210</w>
       <h>470</h>
@@ -186,13 +212,17 @@ er derfor specialister i deres felt
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>620</x>
+      <x>590</x>
       <y>580</y>
       <w>510</w>
       <h>120</h>
     </coordinates>
     <panel_attributes>halign=left
 Indtægtsstrømme
+
+Engangsindtægt: One-Off projekter
+
+Gentagne indtægter: Software, Service, Salg af værdi
 bg=blue
 
 
@@ -204,12 +234,12 @@ bg=blue
   <element>
     <id>Text</id>
     <coordinates>
-      <x>270</x>
-      <y>0</y>
+      <x>440</x>
+      <y>10</y>
       <w>320</w>
       <h>70</h>
     </coordinates>
-    <panel_attributes>HYDAC Forretningsmodellærred
+    <panel_attributes>HYDAC DK Forretningsmodellærred
 fontsize=20
 style=wordwrap</panel_attributes>
     <additional_attributes/>
