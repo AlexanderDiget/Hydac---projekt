@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using Hydac.Views;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -18,7 +19,16 @@ namespace Hydac
     {
         public MainWindow()
         {
+            WindowStartupLocation = WindowStartupLocation.CenterScreen;
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MainMenu menu= new MainMenu();
+            menu.WindowStartupLocation = WindowStartupLocation.CenterScreen;    
+            menu.Show();
+            this.Close();
         }
     }
 }
