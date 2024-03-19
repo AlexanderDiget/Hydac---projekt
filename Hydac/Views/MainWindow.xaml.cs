@@ -32,9 +32,9 @@ namespace Hydac
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MainMenu menu= new MainMenu();
-            menu.WindowStartupLocation = WindowStartupLocation.CenterScreen;    
-            menu.Show();
+            MainMenu mainMenu = new MainMenu();
+            mainMenu.WindowStartupLocation = WindowStartupLocation.CenterScreen;    
+            mainMenu.Show();
             this.Close();
         }
 
