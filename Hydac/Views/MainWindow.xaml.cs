@@ -21,8 +21,15 @@ namespace Hydac
         {
             WindowStartupLocation = WindowStartupLocation.CenterScreen;
             InitializeComponent();
+            BitmapImage Hydac = new BitmapImage(new Uri(@"https://media.licdn.com/dms/image/C4E0BAQF5lP_FItQWQw/company-logo_200_200/0/1630655847640/hydac_international_gmbh_logo?e=2147483647&v=beta&t=tQd8VuZm2OqWL8Eiu3BgO5M62MQbETPt40VVFnQYUxM"));
+            imgLogin.HorizontalAlignment = HorizontalAlignment.Center;
+            imgLogin.Source = Hydac;
         }
 
+        public void LoginPicture(object sender, RoutedEventArgs e)
+        {
+           
+        }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             MainMenu menu= new MainMenu();
@@ -30,5 +37,6 @@ namespace Hydac
             menu.Show();
             this.Close();
         }
+
     }
 }
