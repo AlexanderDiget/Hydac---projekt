@@ -8,14 +8,17 @@
         Title="MainMenu" Height="800" Width="800">
     <Grid>
         <ListBox d:ItemsSource="{d:SampleData ItemCount=5}" Margin="26,26,550,26"/>
-        <Button Content="Make new..." HorizontalAlignment="Left" Margin="270,28,0,0" VerticalAlignment="Top" Height="35" Width="128"/>
-        <Button Content="Edit..." HorizontalAlignment="Left" Margin="450,28,0,0" VerticalAlignment="Top" Height="35" Width="128"/>
-        <Button Content="Remove..." HorizontalAlignment="Left" Margin="630,28,0,0" VerticalAlignment="Top" Height="35" Width="128"/>
+        <Button Content="Make new..." HorizontalAlignment="Left" Margin="270,28,0,0" VerticalAlignment="Top" Height="35" Width="128" Click="Button_Click"/>
+        <Button Content="Edit..." HorizontalAlignment="Left" Margin="450,28,0,0" VerticalAlignment="Top" Height="35" Width="128" Click="Button_Click_2"/>
+        <Button Content="Remove..." HorizontalAlignment="Left" Margin="630,28,0,0" VerticalAlignment="Top" Height="35" Width="128" Click="Button_Click_1"/>
 
         <Button Content="Help..." HorizontalAlignment="Left" Margin="272,723,0,0" VerticalAlignment="Top" Height="35" Width="128"/>
         <Button Content="Options..." HorizontalAlignment="Left" Margin="450,723,0,0" VerticalAlignment="Top" Height="35" Width="128"/>
-        <Button Content="Logout..." HorizontalAlignment="Left" Margin="630,723,0,0" VerticalAlignment="Top" Height="35" Width="128"/>
-        <TextBlock HorizontalAlignment="Left" Margin="272,0,0,0" TextWrapping="Wrap" Text="Select an idea post from the list to get details..." VerticalAlignment="Center" Height="615" Width="486"/>
+        <Button Content="Logout..." IsCancel="True" HorizontalAlignment="Left" Margin="630,723,0,0" VerticalAlignment="Top" Height="35" Width="128" Click="Button_Click_3"/>
+        <TextBlock HorizontalAlignment="Left" Margin="272,164,0,0" TextWrapping="Wrap" Text="Select an idea post from the list to get details..." VerticalAlignment="Top" Height="538" Width="486"/>
+        <Label Content="Location" HorizontalAlignment="Left" Margin="272,92,0,0" VerticalAlignment="Top" Height="35" Width="128"/>
+        <Label Content="Title" HorizontalAlignment="Left" Margin="451,92,0,0" VerticalAlignment="Top" Height="35" Width="128"/>
+        <Label Content="Department" HorizontalAlignment="Left" Margin="630,92,0,0" VerticalAlignment="Top" Height="35" Width="128"/>
 
     </Grid>
 </Window>
