@@ -14,7 +14,7 @@
         <Button Content="Login" HorizontalAlignment="Center" Margin="0,300,0,0" VerticalAlignment="Top" Height="36" Width="100" Click="Button_Click"/>
         <Button Content="Login anonymously" Margin="0,350,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Height="36" Width="100" FontSize="10"/>
         <Button Content="Options..." HorizontalAlignment="Center" Margin="0,400,0,0" VerticalAlignment="Top" Height="36" Width="100"/>
-        <Button Content="Exit..." IsCancel="True" HorizontalAlignment="Center" Margin="0,450,0,0" VerticalAlignment="Top" Height="36" Width="100"/>
+        <Button Content="Exit..." IsCancel="True" HorizontalAlignment="Center" Margin="0,450,0,0" VerticalAlignment="Top" Height="36" Width="100" Click="Button_Click_1"/>
 
 
     </Grid>
