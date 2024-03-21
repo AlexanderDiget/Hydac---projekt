@@ -16,9 +16,9 @@
         <Button Content="Options..." HorizontalAlignment="Left" Margin="450,723,0,0" VerticalAlignment="Top" Height="35" Width="128"/>
         <Button Content="Logout..." IsCancel="True" HorizontalAlignment="Left" Margin="630,723,0,0" VerticalAlignment="Top" Height="35" Width="128" Click="Button_Click_3"/>
         <TextBlock HorizontalAlignment="Left" Margin="272,164,0,0" TextWrapping="Wrap" Text="Select an idea post from the list to get details..." VerticalAlignment="Top" Height="538" Width="486"/>
-        <Label Content="Location" HorizontalAlignment="Left" Margin="272,92,0,0" VerticalAlignment="Top" Height="35" Width="128"/>
-        <Label Content="Title" HorizontalAlignment="Left" Margin="451,92,0,0" VerticalAlignment="Top" Height="35" Width="128"/>
-        <Label Content="Department" HorizontalAlignment="Left" Margin="630,92,0,0" VerticalAlignment="Top" Height="35" Width="128"/>
+        <Label Content="Location" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="272,92,0,0" VerticalAlignment="Top" Height="35" Width="128"/>
+        <Label Content="Title" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="451,92,0,0" VerticalAlignment="Top" Height="35" Width="128"/>
+        <Label Content="Department" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="630,92,0,0" VerticalAlignment="Top" Height="35" Width="128"/>
 
     </Grid>
 </Window>
